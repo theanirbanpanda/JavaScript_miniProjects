@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="root">
+     <div class="searchcontainer">
+
+        <input type="text" placeholder="type city name" id="inputtext">
+        <buttontype="button" id="searchbtn"><img src="/images/search.png" alt="" srcset="" id="searchicon"></button>
+
+     </div>
+
+  <div id="weatherdeatils">
+          <div id="errormessage">
+            <p>city not found</p>
+          </div>
+         <div id="weatherinfo">
+        <h1><img src="/images/clouds.png" alt="" srcset="" id="weathericon"></h1>
+        <h2 id="cityname">Bengaluru</h2>
+        <h2 id="temp">42℃</h2>
+    
+    <div class="info">
+     <div class="humidinfo">
+        <h6><img src="images/humidity.png" alt="" srcset="" id="humidimg"></h6>
+        <h8 id="humidity">60%</h8>
+        <h6>Humidity</h6>
+     </div>
+     <div class="windinfo">
+        <h6><img src="images/wind.png" alt="" srcset="" id="windimg"></h6>
+        <h8 id="wind">5.14 km/h</h8>
+        <h6>wind speed</h6>
+     </div>
+    </div>
+   </div>
+
+    
+  </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
 
