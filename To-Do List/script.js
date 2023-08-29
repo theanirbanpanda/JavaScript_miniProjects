@@ -21,7 +21,7 @@ newItem.appendChild(checkbox);
 checkbox.style.marginRight='20px';
 
 // Append text to list item
-newItem.appendChild(document.createTextNode(item));
+newItem.appendChild(text);
 
 // Create cross button
 var crossButton = document.createElement('button');
