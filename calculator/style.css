@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.root{
+    background-color: black;
+    height: 70vh;
+    width: 40vw;
+    margin-top: 10vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+    .outputdiv{
+        height: 15vh;
+        width: 40vw;
+        background-color: rgb(47, 61, 29);
+        overflow: hidden;
+       
+
+    }
+    #result{
+        height: 15vh;
+       width:40vw;
+        background-color: rgb(47, 61, 29);
+       font-size:xx-large;
+    }
+    button{
+        height: 11vh;
+        width:10vw ;
+        cursor: pointer;
+    }
+    #zero{
+       width: 20vw;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    flex-wrap: wrap;
+      }

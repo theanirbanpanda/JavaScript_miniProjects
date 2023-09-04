@@ -1,0 +1,37 @@
+*{
+    text-align: left;
+    font-size:medium;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 128, 83);
+    height:100vh;
+     /* set this height in order to centre the div ,as width is max by default*/
+    
+}
+.root{
+    height: 60vh;
+    width:40vw;
+    background: rgb(11, 11, 11);
+   border-radius: 20px;
+   overflow: hidden;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.mcqs{  
+    height:30vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+#nextbtn{
+    text-align: center;
+    margin-left: 43%;
+    margin-top:4vh;
+    
+}
